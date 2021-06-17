@@ -29,6 +29,7 @@ html{
   margin-top: 50px;
   line-height: 2;
   font-size: 50px;
+  font-weight:400;
 }
 
 #home .container #mouseClick{
@@ -117,6 +118,7 @@ html{
 #what-we-do{
   text-align: center;
   padding-top: 40px;
+  
 }
 
 #what-we-do .row h2{
