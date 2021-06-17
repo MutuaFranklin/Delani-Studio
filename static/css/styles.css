@@ -119,19 +119,14 @@ html{
   padding-top: 40px;
 }
 
-#what-we-do .what-we-do-box{
-  width: 100%;
-  text-align: center;  
-  
-}
-#what-we-do .what-we-do-box h2{
+#what-we-do .row h2{
   font-weight: bold;
   padding-bottom: 38px;
 
 }
 
 #what-we-do .what-we-do-box .row p{
-  font-size: 15px;
+  font-size: 10px;
 
 }
 
