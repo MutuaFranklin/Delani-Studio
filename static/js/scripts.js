@@ -124,16 +124,39 @@ $(document).ready(function () {
   $("#work8").hover(
     function () {
       $("#work8 .solid-border").show();
+      // $("#work8 .solid-border").css({"filter": "brightness(100%)"});
+
     },
     function () {
       $("#work8 .solid-border").hide();
-    },
-    function () {
-      $("#work8").css({"background-color": "black"});
     }
-    
   );
 });
+
+$(document).ready(function () {
+  $("#work8").hover(
+    function () {
+      $("#work8 img").css({"filter": "brightness(35%)"});
+
+    },
+    function () {
+      $("#work8 img").css({"filter": "none"});
+    }
+  );
+});
+
+$(document).ready(function () {
+  $("#work8").hover(
+    function () {
+      $("#work8 img").css({"filter": "brightness(15%)"});
+    },
+    function () {
+      $("#work8").css("opacity", "none");
+    }
+  );
+});
+
+
 
 
 // JQUERY FORM FUNCTION
