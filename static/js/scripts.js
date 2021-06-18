@@ -136,7 +136,43 @@ $(document).ready(function () {
 });
 
 
+// JQUERY FORM FUNCTION
+
+function ValidateEmail(email) {
+  var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+  return expr.test(email);
+};
+
+$(document).ready(function(){
+  $("form#delani-studio").submit(function(event){
+    // event.preventDefault();
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#message").val();
+
+    if (!$("input#name").val()){
+      alert("Please enter your name!")
+    }
+    else if (!$("input#email").val()){
+      alert("Please enter your email!");
+    }
+
+    if (!ValidateEmail($("input#email").val())) {
+      alert("Invalid email address.");
+    }
+    else if (!$("textarea#message").val()){
+      alert("Please enter your message or comment!");
+    }
+    else{
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    
+    
+  });
+
+});
 
 
 
-background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('landingpagepic.jpg');
+
+// background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('landingpagepic.jpg');
