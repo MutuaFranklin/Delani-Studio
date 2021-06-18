@@ -145,7 +145,6 @@ function ValidateEmail(email) {
 
 $(document).ready(function(){
   $("form#delani-studio").submit(function(event){
-    // event.preventDefault();
     var name = $("input#name").val();
     var email = $("input#email").val();
     var message = $("textarea#message").val();
@@ -167,6 +166,8 @@ $(document).ready(function(){
       alert (name + ", we have received your message. Thank you for reaching out to us.");
     }
     
+    $('form#delani-studio').get(0).reset();
+    return false;
     
   });
 
