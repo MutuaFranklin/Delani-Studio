@@ -14,25 +14,25 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-      
-      }
+    
+    }
 
     #home .container #logo{
-    margin-top: 270px;
-    height: 10vh;
+        margin-top: 270px;
+        height: 10vh;
     }
     
     #home .container h2{
-    margin-top: 50px;
-    margin-bottom: 200px;
-    line-height: 2;
-    font-size: 90px; 
-    font-weight:400;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        line-height: 2;
+        font-size: 90px; 
+        font-weight:400;
     }
     
     #home .container p{
-    font-size: 36px;
-    text-align: center;
+        font-size: 36px;
+        text-align: center;
     }
 
 
@@ -50,17 +50,17 @@
         padding-bottom: 2%;
     
         
-      }
-      #about-us .about h2{
+    }
+    #about-us .about h2{
         font-weight: bold;
         margin-top: 50px;
         font-size: 50px;
       
       }
       
-      #about-us .about p{
+    #about-us .about p{
         line-height: 2;
-        font-size: 35px;
+        font-size: 40px;
       
       }
 
@@ -84,7 +84,7 @@
     
     #services .service-box p{
         line-height: 2;
-        font-size: 35px;
+        font-size: 40px !important;
     
     
     }
@@ -95,7 +95,6 @@
     #what-we-do{
         text-align: center;
         padding-top: 40px;
-        
     }
 
     #what-we-do .row {
@@ -114,26 +113,22 @@
     }
     .col-md-4{
         width: 100%;
-        /* height: 30vh; */
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 50px;
-
     
     }
     .col-md-4 img{ 
         height: 200px;
         max-width: 100%;
-
     
     }
     
     #what-we-do .what-we-do-box .row p{
-        font-size: 35px;
+        font-size: 40px;
     
     }
     .col-md-4 h5{
-        font-size: 35px;
-
+        font-size: 40px;
     
     }
     
@@ -141,6 +136,119 @@
         display: none;
         margin-bottom: 50px !important;
     }
+
+
+   /* PORTFOLIO */
+
+    #portfolio{
+        width: 100%;
+        padding-bottom: 30px;
+      } 
+      
+    #portfolio h2{
+        text-align: center;
+        padding-top:40px;
+        font-size: 50px;
+    }
+    
+      
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0%; 
+      }
+    
+      .col-md-3{
+        width: 800px;
+        position: relative;
+        margin-bottom: 50px;
+      }
+      .col-md-3 img{
+          width: 100%;
+
+        max-width: 100%;
+        max-height: 100%;
+      }
+      
+      .col-md-3 .solid-border{
+        position: absolute;
+        margin: 15px;
+        height: 85%;
+        border: 3px solid white;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 33px !important;
+        display: none;
+      
+      }
+
+
+
+
+
+
+
+      /* CONTACT-US */
+    #contact-us{
+        width: 100%;
+    
+    }
+    
+    #contact-us .contact-box{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #contact-us .contact-box h2{
+        font-size: 50px;
+    
+    
+    }
+    
+    #contact-us .contact-box input{
+        width: 97%;
+        height: 100px;
+        margin: 15px;
+        background: transparent;
+        border: 1px solid white;
+        margin-bottom: 25px;
+    }
+    
+    form{
+        margin-top: 15px;
+    
+    }
+
+    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 40px;
+      }
+      
+      textarea::placeholder{
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 40px;
+      
+      }
+      
+      
+      #message{
+        width: 90%;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+      
+      
+      }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
