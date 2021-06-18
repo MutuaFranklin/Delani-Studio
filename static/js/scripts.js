@@ -158,7 +158,7 @@ $(document).ready(function(){
     }
 
     if (!ValidateEmail($("input#email").val())) {
-      alert("Invalid email address.");
+      alert("Invalid email address!");
     }
     else if (!$("textarea#message").val()){
       alert("Please enter your message or comment!");
