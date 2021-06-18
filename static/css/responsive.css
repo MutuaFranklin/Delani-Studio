@@ -262,6 +262,31 @@
         background-color: rgb(235, 146, 22);
         border: 1px solid white;
       }
+
+      /* FOOTER */
+
+      #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      #footer .social-icons{
+        margin-top: 50px;
+        
+      }
+      
+      #footer .social-icons img{
+        margin: 10px;
+        height: 70px;
+      }
+      
+      #footer .footer-text{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+      }
       
   
 }
