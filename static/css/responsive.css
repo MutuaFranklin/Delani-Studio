@@ -215,6 +215,8 @@
         background: transparent;
         border: 1px solid white;
         margin-bottom: 25px;
+        font-size: 40px;
+
     }
     
     form{
@@ -239,15 +241,28 @@
       
       
       #message{
-        width: 90%;
+        width: 96%;
         background: transparent;
         border: 1px solid white;
         color: white;
         font-weight: bold;
         margin-bottom: 20px;
+        font-size: 40px;
+
       
       
       }
+
+      .btn{
+        height: 100px;
+        width: 500px;
+        font-size: 40px;
+        margin-bottom: 80px;
+        margin-left: 40px;
+        background-color: rgb(235, 146, 22);
+        border: 1px solid white;
+      }
+      
   
 }
 
