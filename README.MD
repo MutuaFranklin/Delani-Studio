@@ -64,7 +64,7 @@ Type https://github.com/MutuaFranklin/Delani-Studio and press Enter to create yo
 
 ## Live link
 
-Live link: [Delani-Studio live link](https://mutuafranklin.github.io/Delani-Studio/
+Live link: [Delani-Studio live link](https://mutuafranklin.github.io/Delani-Studio/)
 
 ## Support and contact details
 
