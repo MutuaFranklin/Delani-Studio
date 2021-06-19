@@ -140,63 +140,122 @@ html{
 
 
 /* PORTFOLIO */
-
-#portfolio{
-  padding-bottom: 30px;
-}
-
 #portfolio h2{
   text-align: center;
   padding-top:40px;
 }
 
 .portfolio{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px;
   align-items: center;
   margin-top: 20px;
   margin-left:15%;
   margin-right: 15%; 
+  margin-bottom: 40px;
+
 }
-.col-md-3{
-  position: relative;
+
+.card{
+  height: 27vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 0% !important;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-.col-md-3 img{
-  max-width: 100%;
-  max-height: 100%;
+
+#work1{
+  background-image: url(../img/portfolio/work4.jpg);
 }
+#work1:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work4.jpg);
+
+}
+
+
+#work2{
+  background-image: url(../img/portfolio/work3.jpg);
+}
+#work2:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work3.jpg);
+
+}
+
+#work3{
+  background-image: url(../img/portfolio/work2.jpg);
+}
+#work3:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work2.jpg);
+
+}
+
+
+#work4{
+  background-image: url(../img/portfolio/work1.jpg);
+}
+#work4:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work1.jpg);
+
+}
+
+#work5{
+  background-image: url(../img/portfolio/work5.jpg);
+}
+#work5:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work5.jpg);
+
+}
+
+
+#work6{
+  background-image: url(../img/portfolio/work6.jpg);
+}
+#work6:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work6.jpg);
+
+}
+
+
+#work7{
+  background-image: url(../img/portfolio/work7.jpg);
+}
+#work7:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work7.jpg);
+
+}
+
+
+#work8{
+  background-image: url(../img/portfolio/work8.jpg);
+}
+#work8:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work8.jpg);
+
+}
+
 
 .col-md-3 .solid-border{
   position: absolute;
-  margin: 15px;
-  height: 85%;
+  height: 23vh;
+  width: 85%;
   border: 3px solid white;
   color: white;
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
-  font-size: 33px !important;
   display: none;
-
 }
 
-/* #portfolio img:hover {
-  filter: brightness(15%);
-  background-color: rgba(0, 0, 0, 0.8);
-  /* filter: brightness(15%) 
 
-} */
-
-
-
-
-#card8 .card8-box h1{
-  color: white;
-  font-weight: bold;
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 33px !important;
+.col-md-3 .solid-border h1{
+  font-size: 35px;
 }
+
 
 
 
