@@ -49,7 +49,7 @@ Type https://github.com/MutuaFranklin/Delani-Studio and press Enter to create yo
 ## BDD
 - Provide information about Delani studio  which includes services offered, portfolio items, and social links.
 - Allow user to send message or comment via form where user name , email and the message are the input requirements.
-- Create a Hover effect for the Portfolio sections such that on hover a white box appears with then name of the project inside.The project picture should still be visible in the background.
+- Create a Hover effect for the Portfolio sections such that on hover a white box appears with the name of the project inside.The project picture should still be visible in the background.
 - Tell the user through a pop up that you have received their message and also thank them for contacting you. eg: "Franklin Mutua we have received your message".
 - Use mail chimp API to track all the emails and messages from your users.
 - Make the site responsive.
