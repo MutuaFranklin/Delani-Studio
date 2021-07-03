@@ -271,7 +271,8 @@ html{
 
 .col-md-3 .solid-border{
   position: absolute;
-  height: 23vh;
+  /* height: 23vh; */
+  height: 80%;
   width: 85%;
   border: 3px solid white;
   color: white;
